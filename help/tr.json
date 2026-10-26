@@ -22,12 +22,12 @@
   {
     "id": "5",
     "title": "Kategoriler ve gezinme",
-    "body": "Her sütunun bağımsız kategorileri vardır. + işaretli klasör düğmesi kategori oluşturur. Tıklama veya Enter açıp kapatır; F2 adını değiştirir. Genel yeniden adlandırılamaz veya kaldırılamaz. Sütunlar bağımsız kaydırılır; ayırıcıları sürükleyerek genişlik ayarlanır. Fareyi öğeye getirmek tam başlık, adres ve notu gösterir."
+    "body": "Her sütunun bağımsız kategorileri vardır. + işaretli klasör düğmesi kategori oluşturur. Tıklama veya Enter açıp kapatır; F2 adını değiştirir. Genel yeniden adlandırılamaz veya kaldırılamaz. Sütunlar bağımsız kaydırılır; ayırıcıları sürükleyerek genişlik ayarlanır. Fareyi öğeye getirmek tam başlık, adres ve notu gösterir.\n\nTek bir kategoriyi aynı sütundaki başka bir başlığa sürükleyin veya yukarı/aşağı düğmelerini kullanın. Tek bir kayıt yalnızca kendi kategorisi içinde sıralanabilir; diğer kategori ve sütunlar reddedilir. Çizgi ekleme yerini gösterir. Genel taşınabilir, ancak kaldırılamaz veya yeniden adlandırılamaz. Sıra kaydedilir. Arama veya çoklu seçim sırasında sıralama kapalıdır; önce aramayı temizleyin."
   },
   {
     "id": "6",
     "title": "Kaldırma ve geri alma",
-    "body": "Öğeyi seçip Delete veya kaldırma düğmesine basın ve onaylayın. Asıl dosya silinmez. Kategori kaldırılırsa öğeleri Genel'e gider. Geri al veya Ctrl+Z mevcut çalıştırmada son 20 kaldırmayı geri getirir; geçmiş kapatılınca kaybolur. Normal düzenleme ve yedek geri yükleme işlemleri geri alınmaz."
+    "body": "Ayrı seçimler için Ctrl+tıklama, aralık için Shift+tıklama kullanın. Aynı anda yalnız bir sütun ve bir tür seçilir: kategoriler VEYA kayıtlar. Başka sütun önceki seçimi temizler; tür değiştirmek yeni seçim başlatır. Aynı sütundaki farklı kategorilerin kayıtları birlikte seçilebilir. Genel, kategori toplu kaldırmasına katılmaz.\n\nDelete, kaldırma düğmesi veya bağlam menüsünü kullanın. Onayda sayılar ve sütun gösterilir. Kategoriler için kayıtları görünür sırayla Genel'in sonuna ekleyerek korumayı (varsayılan) veya kategorileri VE tüm kayıtlarını kaldırmayı seçin. Seçim tüm seçili kategorilere uygulanır. Asıl kaynaklar asla silinmez. İptal değişiklik yapmaz. Geri al veya Ctrl+Z tüm grubu, kategorileri, kayıtları ve önceki sırayı tek işlemde geri getirir. Son 20 grup yalnız mevcut çalıştırmada tutulur; düzenleme ve yedek geri yükleme geri alınmaz."
   },
   {
     "id": "7",

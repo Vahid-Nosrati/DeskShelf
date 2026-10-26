@@ -27,7 +27,7 @@ def validate(data):
     if not isinstance(cats,dict): raise ValueError('Invalid categories')
     for k in KINDS:
         values=cats.get(k)
-        if not isinstance(values,list) or not values or values[0]!={'id':'general','name':''}:
+        if not isinstance(values,list) or not values or sum(c == {'id':'general','name':''} for c in values) != 1:
             raise ValueError('Missing General category')
         ids=[]
         for c in values:

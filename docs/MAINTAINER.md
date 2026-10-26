@@ -53,8 +53,8 @@ folders but cannot recognize a personal backup saved under an arbitrary filename
 
 Run `package_release.bat` from the source directory after a successful build. It creates:
 
-- `release/DeskShelf-v0.3.0-source.zip`
-- `release/DeskShelf-v0.3.0-windows-x64-portable.zip`
+- `release/DeskShelf-v0.4.0-source.zip`
+- `release/DeskShelf-v0.4.0-windows-x64-portable.zip`
 - `release/SHA256SUMS.txt`
 
 The public portable ZIP always excludes its top-level `data` directory, even if you
@@ -82,3 +82,16 @@ Recommend a backup before replacement. Users should close the old app, export/co
 their data, extract a new release separately and restore the backup. Once verified,
 they can delete the old app. Their existing language choice is retained; English is
 only the default for a new data folder. Do not ship your personal data as defaults.
+
+## v0.4.0 regression checks
+
+Check Ctrl/Shift selection, switching column/type, General protection and both batch
+category-removal modes. Verify counts include every item in selected categories,
+including filtered-out entries. Check one-step undo restores the batch and order.
+Drag rows only onto valid siblings; verify rejected cross-column and cross-category
+moves do not import or relocate entries. Reordering must be disabled in search and
+with multiple selections. Check order survives closing and reopening.
+
+Before upgrading export a backup. v0.4.0 can read older backups. Earlier versions may
+reject data after General has been moved from the first position; use a pre-upgrade
+backup when reverting to an older app. Publish v0.4.0 as a new release, keeping v0.3.0.

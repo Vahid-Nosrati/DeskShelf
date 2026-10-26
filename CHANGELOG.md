@@ -1,5 +1,28 @@
 # Changelog
 
+## 0.4.0
+
+### Visual corrections (same version)
+
+- Column controls remain beside the title whenever measured text and buttons fit.
+  They wrap only when needed and return inline after resizing or changing language.
+- Up/Down icons use filled arrowheads joined to short shafts.
+- The empty-column hint is hidden whenever a custom category exists and returns when
+  only an empty General category remains. Search no-results hints are unchanged.
+- Seven added visual/layout regression checks cover all twelve interface languages.
+
+
+- Scoped drag-and-drop and Up/Down controls for persistent category and item ordering.
+- Categories stay in their column; items stay in their own category. General is movable.
+- Single-column, same-type Ctrl/Shift selection; changing type or column clears the old selection.
+- Batch item/category removal with counts, safe cancellation and two category-removal modes.
+- One-step batch undo restores entries, categories, collapsed state and original ordering.
+- Reordering is disabled during search or multiselection. Right-click preserves selected batches.
+- New behavior translated in all 12 catalogs and offline guides; existing public metadata retained.
+- All 52 automated tests pass, covering data persistence, invalid destinations, selection, deletion and undo.
+- See docs/VALIDATION_v0.4.0.md for verification scope and Windows checks.
+
+
 ## 0.3.0
 
 - English default for a new installation; retain existing language preferences.

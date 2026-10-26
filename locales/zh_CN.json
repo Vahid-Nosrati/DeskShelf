@@ -33,7 +33,6 @@
   "url_error": "请输入完整的 http:// 或 https:// 地址。",
   "missing": "路径不存在，或项目类型与此列不符。",
   "confirm": "移除此条目？原始文件不会被删除。",
-  "delete_category": "移除此分类并将项目移到“常规”？",
   "restore_confirm": "用此备份替换当前数据？",
   "fetch": "标题留空时会尝试在后台获取。",
   "appearance": "外观",
@@ -69,7 +68,7 @@
   "items_count": "项",
   "app_running": "DeskShelf 已在运行。",
   "close_unsaved": "保存失败。仍要关闭吗？",
-  "build": "版本 0.3",
+  "build": "版本 0.4",
   "font_size": "文字大小",
   "help": "帮助",
   "about": "关于",
@@ -85,5 +84,13 @@
   "recovered": "已恢复",
   "program_filter": "程序",
   "all_files": "所有文件",
-  "startup_error": "无法加载数据。请检查 data/data.json 和 data/previous.json。"
+  "startup_error": "无法加载数据。请检查 data/data.json 和 data/previous.json。",
+  "move_up": "上移",
+  "move_down": "下移",
+  "reorder_search_disabled": "请清空搜索后调整顺序。",
+  "delete_items_summary": "从“{column}”移除选中的 {items} 个条目？",
+  "delete_categories_summary": "在“{column}”中选中了 {categories} 个分类，共含 {items} 个条目。请选择移除范围：",
+  "keep_category_items": "移除分类，将其中所有条目保留在“常规”。",
+  "remove_category_items": "移除分类及其中全部 {items} 个条目。",
+  "remove_originals_note": "只移除 DeskShelf 中的条目，不会删除原始文件、文件夹或应用。"
 }

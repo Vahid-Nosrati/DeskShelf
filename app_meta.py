@@ -3,7 +3,7 @@ import json
 import sys
 from pathlib import Path
 
-VERSION='0.3.0'
+VERSION='0.4.0'
 
 def app_root():
     return Path(sys.executable).parent if getattr(sys,'frozen',False) else Path(__file__).resolve().parent

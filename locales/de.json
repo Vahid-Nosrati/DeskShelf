@@ -33,7 +33,6 @@
   "url_error": "Geben Sie eine vollständige http://- oder https://-Adresse ein.",
   "missing": "Der Pfad fehlt oder sein Typ passt nicht zu dieser Spalte.",
   "confirm": "Eintrag entfernen? Die Originaldatei wird nicht gelöscht.",
-  "delete_category": "Kategorie entfernen und Einträge nach Allgemein verschieben?",
   "restore_confirm": "Aktuelle Daten durch diese Sicherung ersetzen?",
   "fetch": "Titel leer lassen, um ihn im Hintergrund abzurufen.",
   "appearance": "Darstellung",
@@ -69,7 +68,7 @@
   "items_count": "Einträge",
   "app_running": "DeskShelf läuft bereits.",
   "close_unsaved": "Speichern fehlgeschlagen. Trotzdem schließen?",
-  "build": "Version 0.3",
+  "build": "Version 0.4",
   "font_size": "Textgröße",
   "help": "Hilfe",
   "about": "Über DeskShelf",
@@ -85,5 +84,13 @@
   "recovered": "wiederhergestellt",
   "program_filter": "Programme",
   "all_files": "Alle Dateien",
-  "startup_error": "Daten konnten nicht geladen werden. Prüfen Sie data/data.json und data/previous.json."
+  "startup_error": "Daten konnten nicht geladen werden. Prüfen Sie data/data.json und data/previous.json.",
+  "move_up": "Nach oben verschieben",
+  "move_down": "Nach unten verschieben",
+  "reorder_search_disabled": "Leeren Sie die Suche, um die Reihenfolge zu ändern.",
+  "delete_items_summary": "{items} ausgewählte Einträge aus „{column}“ entfernen?",
+  "delete_categories_summary": "In „{column}“ sind {categories} Kategorien mit {items} Einträgen ausgewählt. Umfang wählen:",
+  "keep_category_items": "Kategorien entfernen; alle Einträge nach Allgemein verschieben.",
+  "remove_category_items": "Kategorien UND alle {items} enthaltenen Einträge entfernen.",
+  "remove_originals_note": "Nur DeskShelf-Einträge werden entfernt. Originaldateien, Ordner und Programme bleiben erhalten."
 }

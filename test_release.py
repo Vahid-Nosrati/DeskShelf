@@ -34,6 +34,15 @@ class TranslationTests(unittest.TestCase):
                 self.assertTrue(all(s['title'] and len(s['body'])>80 for s in guide(code)))
                 d=initial();d['language']=code;self.assertEqual(validate(d)['language'],code)
         self.assertEqual(initial()['language'],'en')
+    def test_localized_confirmation_placeholders(self):
+        from string import Formatter
+        keys=['delete_items_summary','delete_categories_summary','remove_category_items']
+        for code in LANGUAGES:
+            for key in keys:
+                expected={field for _,field,_,_ in Formatter().parse(catalog('en')[key]) if field is not None}
+                actual={field for _,field,_,_ in Formatter().parse(catalog(code)[key]) if field is not None}
+                self.assertEqual(actual,expected,(code,key))
+                self.assertTrue(catalog(code)[key].format(categories=2,items=9,column='Test'))
     def test_existing_language_is_retained(self):
         with tempfile.TemporaryDirectory() as p:
             s=Store(p);s.data['language']='fa';s.save();self.assertEqual(Store(p).data['language'],'fa')
@@ -85,8 +94,8 @@ class PublicReleaseTests(unittest.TestCase):
             out=root/'release.zip';pack.archive(out,files)
             import zipfile
             with zipfile.ZipFile(out) as z:self.assertIn('DeskShelf/_internal/library.dll',z.namelist())
-    def test_no_personal_links_and_standard_mit(self):
-        info=json.loads((ROOT/'app_info.json').read_text());self.assertEqual(info,{'author':'Vahid Nosrati','github_profile':'','repository_url':'','public_contact':''})
+    def test_public_metadata_and_standard_mit(self):
+        info=json.loads((ROOT/'app_info.json').read_text());self.assertEqual(info['author'],'Vahid Nosrati');self.assertEqual(set(info),{'author','github_profile','repository_url','public_contact'});self.assertTrue(all(isinstance(v,str) for v in info.values()))
         license=(ROOT/'LICENSE').read_text();self.assertIn('Copyright (c) 2026 Vahid Nosrati',license);self.assertIn('THE SOFTWARE IS PROVIDED "AS IS"',license)
         self.assertTrue((ROOT/'licenses'/'GPL-3.0.txt').exists())
 

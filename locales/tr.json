@@ -33,7 +33,6 @@
   "url_error": "Tam bir http:// veya https:// adresi girin.",
   "missing": "Yol bulunamadı veya türü bu sütuna uygun değil.",
   "confirm": "Bu kayıt kaldırılsın mı? Asıl dosya silinmez.",
-  "delete_category": "Kategori kaldırılsın ve öğeleri Genel'e taşınsın mı?",
   "restore_confirm": "Mevcut veriler bu yedekle değiştirilsin mi?",
   "fetch": "Başlığı arka planda almak için boş bırakın.",
   "appearance": "Görünüm",
@@ -69,7 +68,7 @@
   "items_count": "öğe",
   "app_running": "DeskShelf zaten açık.",
   "close_unsaved": "Kaydedilemedi. Yine de kapatılsın mı?",
-  "build": "Sürüm 0.3",
+  "build": "Sürüm 0.4",
   "font_size": "Metin boyutu",
   "help": "Yardım",
   "about": "Hakkında",
@@ -85,5 +84,13 @@
   "recovered": "geri yüklendi",
   "program_filter": "Programlar",
   "all_files": "Tüm dosyalar",
-  "startup_error": "Veriler yüklenemedi. data/data.json ve data/previous.json dosyalarını kontrol edin."
+  "startup_error": "Veriler yüklenemedi. data/data.json ve data/previous.json dosyalarını kontrol edin.",
+  "move_up": "Yukarı taşı",
+  "move_down": "Aşağı taşı",
+  "reorder_search_disabled": "Sıralamayı değiştirmek için aramayı temizleyin.",
+  "delete_items_summary": "“{column}” sütunundan seçilen {items} kayıt kaldırılsın mı?",
+  "delete_categories_summary": "“{column}” içinde {items} kayıt içeren {categories} kategori seçildi. Kaldırılacak kapsamı seçin:",
+  "keep_category_items": "Kategorileri kaldır; tüm kayıtları Genel'e taşı.",
+  "remove_category_items": "Kategorileri VE içlerindeki {items} kaydın tümünü kaldır.",
+  "remove_originals_note": "Yalnızca DeskShelf kayıtları kaldırılır. Asıl dosyalar, klasörler ve uygulamalar silinmez."
 }

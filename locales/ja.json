@@ -33,7 +33,6 @@
   "url_error": "http:// または https:// から始まる完全なアドレスを入力してください。",
   "missing": "パスが見つからないか、この列の種類と一致しません。",
   "confirm": "この項目を削除しますか？元のファイルは削除されません。",
-  "delete_category": "カテゴリーを削除し、項目を「一般」に移動しますか？",
   "restore_confirm": "現在のデータをこのバックアップで置き換えますか？",
   "fetch": "タイトルが空欄の場合はバックグラウンドで取得します。",
   "appearance": "外観",
@@ -69,7 +68,7 @@
   "items_count": "件",
   "app_running": "DeskShelf は既に起動しています。",
   "close_unsaved": "保存できませんでした。それでも終了しますか？",
-  "build": "バージョン 0.3",
+  "build": "バージョン 0.4",
   "font_size": "文字サイズ",
   "help": "ヘルプ",
   "about": "このアプリについて",
@@ -85,5 +84,13 @@
   "recovered": "復元済み",
   "program_filter": "プログラム",
   "all_files": "すべてのファイル",
-  "startup_error": "データを読み込めません。data/data.json と data/previous.json を確認してください。"
+  "startup_error": "データを読み込めません。data/data.json と data/previous.json を確認してください。",
+  "move_up": "上へ移動",
+  "move_down": "下へ移動",
+  "reorder_search_disabled": "検索を消去してから順序を変更してください。",
+  "delete_items_summary": "「{column}」から選択した {items} 件を削除しますか？",
+  "delete_categories_summary": "「{column}」で {categories} 個のカテゴリー（計 {items} 件）が選択されています。削除範囲を選んでください：",
+  "keep_category_items": "カテゴリーを削除し、全項目を「一般」に移動する。",
+  "remove_category_items": "カテゴリーと中の全 {items} 件を削除する。",
+  "remove_originals_note": "DeskShelf の登録情報のみを削除します。元のファイル・フォルダー・アプリは削除されません。"
 }

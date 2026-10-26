@@ -22,12 +22,12 @@
   {
     "id": "5",
     "title": "Categorías y navegación",
-    "body": "Cada columna tiene categorías independientes. El botón de carpeta con + crea una. Haz clic o pulsa Enter sobre una categoría para expandirla o contraerla; F2 cambia su nombre. General no se puede renombrar ni eliminar. Cada columna se desplaza por separado; arrastra divisores para ajustar anchuras. Al pasar el ratón se muestran título, ruta y nota completos."
+    "body": "Cada columna tiene categorías independientes. El botón de carpeta con + crea una. Haz clic o pulsa Enter sobre una categoría para expandirla o contraerla; F2 cambia su nombre. General no se puede renombrar ni eliminar. Cada columna se desplaza por separado; arrastra divisores para ajustar anchuras. Al pasar el ratón se muestran título, ruta y nota completos.\n\nReordena una sola categoría arrastrándola a otro encabezado del mismo bloque de columna, o usa los botones arriba y abajo. Una entrada solo se puede reordenar dentro de su propia categoría. Se rechazan destinos de otras categorías o columnas. Una línea indica la inserción. General se puede mover, pero no eliminar ni renombrar. El orden se guarda. Durante una búsqueda o selección múltiple no se puede reordenar; borra la búsqueda primero."
   },
   {
     "id": "6",
     "title": "Eliminar y deshacer",
-    "body": "Selecciona una entrada, pulsa Delete o eliminar y confirma. Nunca se borra el archivo original. Eliminar una categoría mueve sus elementos a General. Deshacer o Ctrl+Z recupera hasta 20 eliminaciones de la ejecución actual; el historial desaparece al cerrar. No deshace ediciones normales ni restauraciones de copias."
+    "body": "Usa Ctrl+clic para selecciones separadas y Shift+clic para un rango. Solo se selecciona una columna y un tipo: categorías O entradas. Cambiar de columna borra la selección anterior; cambiar de tipo inicia otra. Puedes seleccionar entradas de varias categorías de la misma columna. General no participa en la eliminación de categorías.\n\nPulsa Delete, eliminar o la opción contextual. La confirmación muestra cantidades y columna. Para categorías elige conservar todas las entradas al final de General, manteniendo su orden visible (predeterminado), o eliminar categorías Y sus entradas. La opción se aplica a todas las categorías seleccionadas. Los originales nunca se borran. Cancelar no cambia nada. Deshacer o Ctrl+Z restaura todo el lote con categorías, entradas y orden anterior como una operación. Se conservan hasta 20 lotes solo durante esta ejecución; no deshace ediciones ni restauraciones."
   },
   {
     "id": "7",

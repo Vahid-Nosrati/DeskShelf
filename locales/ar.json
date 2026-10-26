@@ -33,7 +33,6 @@
   "url_error": "أدخل عنوانًا كاملاً يبدأ بـ http:// أو https://.",
   "missing": "لم يُعثر على المسار أو لا يتوافق نوعه مع العمود.",
   "confirm": "إزالة هذا الإدخال؟ لن يُحذف الملف الأصلي.",
-  "delete_category": "إزالة الفئة ونقل عناصرها إلى «عام»؟",
   "restore_confirm": "استبدال البيانات الحالية بهذه النسخة الاحتياطية؟",
   "fetch": "اترك العنوان فارغًا لجلبه في الخلفية.",
   "appearance": "المظهر",
@@ -69,7 +68,7 @@
   "items_count": "عناصر",
   "app_running": "البرنامج مفتوح بالفعل.",
   "close_unsaved": "فشل الحفظ. هل تريد الإغلاق رغم ذلك؟",
-  "build": "الإصدار 0.3",
+  "build": "الإصدار 0.4",
   "font_size": "حجم النص",
   "help": "المساعدة",
   "about": "حول البرنامج",
@@ -85,5 +84,13 @@
   "recovered": "مستعاد",
   "program_filter": "البرامج",
   "all_files": "كل الملفات",
-  "startup_error": "تعذر تحميل البيانات. افحص data/data.json وdata/previous.json."
+  "startup_error": "تعذر تحميل البيانات. افحص data/data.json وdata/previous.json.",
+  "move_up": "نقل لأعلى",
+  "move_down": "نقل لأسفل",
+  "reorder_search_disabled": "امسح البحث لتغيير الترتيب.",
+  "delete_items_summary": "إزالة {items} من الإدخالات المحددة من «{column}»؟",
+  "delete_categories_summary": "تم تحديد {categories} فئة تحتوي على {items} إدخالًا في «{column}». اختر نطاق الإزالة:",
+  "keep_category_items": "إزالة الفئات ونقل كل إدخالاتها إلى «عام».",
+  "remove_category_items": "إزالة الفئات وكل إدخالاتها البالغ عددها {items}.",
+  "remove_originals_note": "تُزال إدخالات DeskShelf فقط؛ لا تُحذف الملفات أو المجلدات أو التطبيقات الأصلية."
 }

@@ -22,12 +22,12 @@
   {
     "id": "5",
     "title": "Categorias e navegação",
-    "body": "Cada coluna tem categorias próprias. O botão de pasta com + cria uma. Clique ou pressione Enter numa categoria para expandir ou recolher; F2 muda seu nome. Geral não pode ser renomeada nem removida. As colunas rolam independentemente; arraste os divisores para ajustar larguras. Passe o mouse para ver título, caminho e nota completos."
+    "body": "Cada coluna tem categorias próprias. O botão de pasta com + cria uma. Clique ou pressione Enter numa categoria para expandir ou recolher; F2 muda seu nome. Geral não pode ser renomeada nem removida. As colunas rolam independentemente; arraste os divisores para ajustar larguras. Passe o mouse para ver título, caminho e nota completos.\n\nReordene uma categoria arrastando-a para outro cabeçalho na mesma coluna ou use os botões para cima/baixo. Uma entrada só pode mudar de posição dentro da própria categoria. Outras categorias ou colunas são rejeitadas. Uma linha indica a inserção. Geral pode mudar de posição, mas não ser removida ou renomeada. A ordem é salva. Durante pesquisas ou seleção múltipla não é possível reordenar; limpe a pesquisa primeiro."
   },
   {
     "id": "6",
     "title": "Remover e desfazer",
-    "body": "Selecione uma entrada, pressione Delete ou Remover e confirme. O arquivo original nunca é excluído. Remover uma categoria move seus itens para Geral. Desfazer ou Ctrl+Z recupera até 20 remoções durante a execução atual; o histórico termina ao fechar. Não desfaz edições comuns nem restaurações de backup."
+    "body": "Use Ctrl+clique para seleções separadas e Shift+clique para um intervalo. Só uma coluna e um tipo podem ser selecionados: categorias OU entradas. Mudar de coluna limpa a seleção anterior; mudar de tipo inicia outra. Entradas de categorias diferentes da mesma coluna podem ser selecionadas juntas. Geral não participa da remoção de categorias.\n\nPressione Delete, Remover ou a ação do menu de contexto. A confirmação mostra quantidades e coluna. Para categorias, escolha manter entradas no final de Geral, na ordem visível (padrão), ou remover categorias E todas as entradas. A escolha vale para todas as categorias selecionadas. Os originais nunca são excluídos. Cancelar não altera nada. Desfazer ou Ctrl+Z restaura o lote inteiro, incluindo categorias, entradas e ordem anterior, em uma operação. Até 20 lotes são mantidos só na execução atual; edições e restaurações não são desfeitas."
   },
   {
     "id": "7",

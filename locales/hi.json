@@ -33,7 +33,6 @@
   "url_error": "पूरा http:// या https:// पता दर्ज करें।",
   "missing": "पथ नहीं मिला या उसका प्रकार इस स्तंभ से मेल नहीं खाता।",
   "confirm": "यह प्रविष्टि हटाएँ? मूल फ़ाइल नहीं हटेगी।",
-  "delete_category": "श्रेणी हटाकर उसके आइटम सामान्य में ले जाएँ?",
   "restore_confirm": "वर्तमान डेटा को इस बैकअप से बदलें?",
   "fetch": "शीर्षक खाली छोड़ने पर उसे पृष्ठभूमि में प्राप्त किया जाएगा।",
   "appearance": "दिखावट",
@@ -69,7 +68,7 @@
   "items_count": "आइटम",
   "app_running": "DeskShelf पहले से चल रहा है।",
   "close_unsaved": "सहेजना विफल हुआ। फिर भी बंद करें?",
-  "build": "संस्करण 0.3",
+  "build": "संस्करण 0.4",
   "font_size": "पाठ का आकार",
   "help": "सहायता",
   "about": "परिचय",
@@ -85,5 +84,13 @@
   "recovered": "बहाल किया गया",
   "program_filter": "प्रोग्राम",
   "all_files": "सभी फ़ाइलें",
-  "startup_error": "डेटा लोड नहीं हुआ। data/data.json और data/previous.json जाँचें।"
+  "startup_error": "डेटा लोड नहीं हुआ। data/data.json और data/previous.json जाँचें।",
+  "move_up": "ऊपर ले जाएँ",
+  "move_down": "नीचे ले जाएँ",
+  "reorder_search_disabled": "क्रम बदलने के लिए खोज साफ़ करें।",
+  "delete_items_summary": "“{column}” से चयनित {items} प्रविष्टियाँ हटाएँ?",
+  "delete_categories_summary": "“{column}” में {items} प्रविष्टियों वाली {categories} श्रेणियाँ चुनी गई हैं। हटाने का दायरा चुनें:",
+  "keep_category_items": "श्रेणियाँ हटाएँ; उनकी सभी प्रविष्टियाँ सामान्य में रखें।",
+  "remove_category_items": "श्रेणियाँ और उनकी सभी {items} प्रविष्टियाँ हटाएँ।",
+  "remove_originals_note": "केवल DeskShelf प्रविष्टियाँ हटती हैं। मूल फ़ाइलें, फ़ोल्डर और ऐप कभी नहीं हटते।"
 }

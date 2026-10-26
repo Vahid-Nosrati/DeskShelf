@@ -22,12 +22,12 @@
   {
     "id": "5",
     "title": "Categories and navigation",
-    "body": "Each column has independent categories. Use the folder-plus button to create one. Click a category or press Enter when it is selected to expand or collapse it. F2 renames a selected category. General cannot be renamed or removed. Each column scrolls independently; drag the dividers to change widths. Hover over an entry to see its full title, address and note."
+    "body": "Each column has independent categories. Use the folder-plus button to create one. Click a category or press Enter when it is selected to expand or collapse it. F2 renames a selected category. General cannot be renamed or removed. Each column scrolls independently; drag the dividers to change widths. Hover over an entry to see its full title, address and note.\n\nReorder one selected category by dragging it onto another category heading in the same column, or use the Up/Down buttons. Reorder one selected entry only among entries in its own category. Drops into other categories or columns are rejected. A line marks the insertion position. General can be reordered but not removed or renamed. Order is saved. Reordering is disabled during search and when multiple rows are selected; clear the search first."
   },
   {
     "id": "6",
     "title": "Remove and undo",
-    "body": "Select an entry and press Delete or the remove button, then confirm. Only the DeskShelf entry is removed, never the original file or folder. Removing a category moves its entries to General. Undo or Ctrl+Z restores up to 20 recent removals during the current run; this history is not retained after closing. Undo does not reverse ordinary edits or backup restoration."
+    "body": "Use Ctrl+click for separate selections and Shift+click for a range. Only one column and one row type are selected at a time: categories OR entries. Selecting in another column clears the previous selection; switching type starts a new selection. Entries from different categories in the same column may be selected together. General cannot join a category removal batch.\n\nPress Delete, the remove button or the context-menu action. Confirmation shows the counts and column. For categories choose either keeping all entries by appending them to General in their visible category/item order (the default), or removing the categories AND all their entries. The choice applies to every selected category. Original files, folders and applications are never deleted. Cancel makes no changes. Undo or Ctrl+Z restores an entire batch, including its categories, entries and previous order, as one operation. Up to 20 removal batches are retained only during the current run; ordinary edits and backup restoration are not undone."
   },
   {
     "id": "7",

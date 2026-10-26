@@ -22,12 +22,12 @@
   {
     "id": "5",
     "title": "Kategorien und Navigation",
-    "body": "Jede Spalte hat eigene Kategorien. Der Ordner mit + erstellt eine Kategorie. Ein Klick oder Eingabe klappt sie auf oder zu; F2 benennt sie um. Allgemein kann weder umbenannt noch entfernt werden. Spalten scrollen unabhängig und lassen sich über die Trennlinien verbreitern. Beim Überfahren erscheinen vollständiger Titel, Pfad und Notiz."
+    "body": "Jede Spalte hat eigene Kategorien. Der Ordner mit + erstellt eine Kategorie. Ein Klick oder Eingabe klappt sie auf oder zu; F2 benennt sie um. Allgemein kann weder umbenannt noch entfernt werden. Spalten scrollen unabhängig und lassen sich über die Trennlinien verbreitern. Beim Überfahren erscheinen vollständiger Titel, Pfad und Notiz.\n\nZiehen Sie eine einzelne Kategorie auf eine andere Überschrift derselben Spalte oder verwenden Sie die Auf-/Ab-Schaltflächen. Ein einzelner Eintrag lässt sich nur innerhalb seiner eigenen Kategorie umordnen. Andere Kategorien oder Spalten werden abgelehnt. Eine Linie zeigt die Einfügeposition. Allgemein ist verschiebbar, aber nicht lösch- oder umbenennbar. Die Reihenfolge wird gespeichert. Während einer Suche oder Mehrfachauswahl ist Umordnen deaktiviert; leeren Sie zuerst die Suche."
   },
   {
     "id": "6",
     "title": "Entfernen und rückgängig machen",
-    "body": "Wählen Sie einen Eintrag, drücken Sie Entf oder Entfernen und bestätigen Sie. Die Originaldatei bleibt erhalten. Entfernen einer Kategorie verschiebt ihre Einträge nach Allgemein. Rückgängig oder Strg+Z stellt bis zu 20 Löschvorgänge der aktuellen Sitzung wieder her. Nach dem Schließen ist dieser Verlauf weg. Normale Bearbeitungen und Sicherungswiederherstellungen werden nicht rückgängig gemacht."
+    "body": "Strg+Klick wählt einzelne Zeilen, Umschalt+Klick einen Bereich. Die Auswahl umfasst immer nur eine Spalte und einen Typ: Kategorien ODER Einträge. Eine andere Spalte löscht die vorige Auswahl; ein anderer Typ beginnt eine neue. Einträge mehrerer Kategorien derselben Spalte sind zusammen wählbar. Allgemein gehört nicht zu einer Kategorien-Löschgruppe.\n\nDrücken Sie Entf, Entfernen oder den Kontextmenüeintrag. Die Bestätigung zeigt Anzahl und Spalte. Bei Kategorien wählen Sie, ob alle Einträge in sichtbarer Reihenfolge an Allgemein angehängt werden (Standard), oder Kategorien UND alle Einträge entfernt werden. Die Entscheidung gilt für alle gewählten Kategorien. Originale werden nie gelöscht. Abbrechen ändert nichts. Rückgängig oder Strg+Z stellt die ganze Gruppe samt Kategorien, Einträgen und vorheriger Reihenfolge als einen Schritt wieder her. Bis zu 20 Löschgruppen gelten nur für den aktuellen Lauf; Bearbeitungen und Sicherungswiederherstellung sind nicht enthalten."
   },
   {
     "id": "7",

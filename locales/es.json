@@ -33,7 +33,6 @@
   "url_error": "Introduce una dirección completa http:// o https://.",
   "missing": "No se encontró la ruta o su tipo no corresponde a esta columna.",
   "confirm": "¿Eliminar esta entrada? El archivo original no se borrará.",
-  "delete_category": "¿Eliminar la categoría y mover sus elementos a General?",
   "restore_confirm": "¿Reemplazar los datos actuales con esta copia?",
   "fetch": "Deja el título vacío para obtenerlo en segundo plano.",
   "appearance": "Apariencia",
@@ -69,7 +68,7 @@
   "items_count": "elementos",
   "app_running": "DeskShelf ya está abierto.",
   "close_unsaved": "No se pudo guardar. ¿Cerrar de todos modos?",
-  "build": "Versión 0.3",
+  "build": "Versión 0.4",
   "font_size": "Tamaño de texto",
   "help": "Ayuda",
   "about": "Acerca de",
@@ -85,5 +84,13 @@
   "recovered": "restaurado",
   "program_filter": "Programas",
   "all_files": "Todos los archivos",
-  "startup_error": "No se pudieron cargar los datos. Revisa data/data.json y data/previous.json."
+  "startup_error": "No se pudieron cargar los datos. Revisa data/data.json y data/previous.json.",
+  "move_up": "Mover arriba",
+  "move_down": "Mover abajo",
+  "reorder_search_disabled": "Borra la búsqueda para cambiar el orden.",
+  "delete_items_summary": "¿Eliminar {items} entradas seleccionadas de «{column}»?",
+  "delete_categories_summary": "Hay {categories} categorías con {items} entradas seleccionadas en «{column}». Elige qué eliminar:",
+  "keep_category_items": "Eliminar categorías y conservar sus entradas en General.",
+  "remove_category_items": "Eliminar categorías Y sus {items} entradas.",
+  "remove_originals_note": "Solo se eliminan entradas de DeskShelf. Los archivos, carpetas y aplicaciones originales no se borran."
 }

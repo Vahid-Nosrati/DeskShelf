@@ -22,12 +22,12 @@
   {
     "id": "5",
     "title": "Catégories et navigation",
-    "body": "Les catégories sont indépendantes par colonne. Le dossier avec + en crée une. Cliquez sur une catégorie ou appuyez sur Entrée pour la développer ou réduire ; F2 la renomme. Général ne peut être renommée ni retirée. Chaque colonne défile indépendamment ; les séparateurs règlent les largeurs. Survoler une entrée affiche son titre complet, son chemin et sa note."
+    "body": "Les catégories sont indépendantes par colonne. Le dossier avec + en crée une. Cliquez sur une catégorie ou appuyez sur Entrée pour la développer ou réduire ; F2 la renomme. Général ne peut être renommée ni retirée. Chaque colonne défile indépendamment ; les séparateurs règlent les largeurs. Survoler une entrée affiche son titre complet, son chemin et sa note.\n\nDéplacez une seule catégorie sur un autre en-tête de la même colonne, ou utilisez les boutons haut et bas. Une entrée ne peut être réordonnée qu’au sein de sa propre catégorie. Les autres catégories et colonnes sont refusées. Une ligne indique l’insertion. Général peut être déplacée, mais pas supprimée ni renommée. L’ordre est enregistré. Le déplacement est désactivé pendant une recherche ou une sélection multiple ; effacez d’abord la recherche."
   },
   {
     "id": "6",
     "title": "Retirer et annuler",
-    "body": "Sélectionnez une entrée, appuyez sur Suppr ou Retirer et confirmez. Le fichier original reste intact. Retirer une catégorie déplace ses éléments vers Général. Annuler ou Ctrl+Z rétablit jusqu’à 20 suppressions pendant l’exécution actuelle ; l’historique disparaît à la fermeture. Les modifications ordinaires et restaurations ne sont pas annulées."
+    "body": "Ctrl+clic sélectionne des éléments séparés et Shift+clic une plage. Une seule colonne et un seul type sont sélectionnés : catégories OU entrées. Changer de colonne efface la sélection précédente ; changer de type en commence une nouvelle. Les entrées de plusieurs catégories de la même colonne peuvent être sélectionnées ensemble. Général ne fait pas partie d’un retrait groupé de catégories.\n\nUtilisez Suppr, Retirer ou le menu contextuel. La confirmation affiche les nombres et la colonne. Pour les catégories, conservez leurs entrées à la fin de Général dans l’ordre visible (par défaut), ou retirez les catégories ET toutes leurs entrées. Le choix concerne toutes les catégories sélectionnées. Les originaux restent intacts. Annuler ne change rien. Annuler ou Ctrl+Z restaure le lot entier, ses catégories, entrées et ordre initial, en une opération. Jusqu’à 20 lots sont gardés pendant l’exécution ; les éditions et restaurations ne sont pas annulées."
   },
   {
     "id": "7",

@@ -71,7 +71,7 @@ class InterfaceTests(unittest.TestCase):
     def test_delete_category_undo_preserves_new_items(self):
         self.w.data['categories']['web'].append({'id':'research','name':'تحقیق'});self.add_item(category='research')
         tree=self.w.columns['web'];tree.setCurrentItem(tree.topLevelItem(1))
-        with patch.object(self.w,'question',return_value=QMessageBox.Yes):self.w.remove(tree)
+        with patch.object(self.w,'confirm_removal',return_value='keep'):self.w.remove(tree)
         self.assertEqual(self.w.find('x')['category'],'general');self.add_item('new');self.w.undo()
         self.assertEqual(self.w.find('x')['category'],'research');self.assertIsNotNone(self.w.find('new'))
     def test_category_click_and_keyboard_open(self):

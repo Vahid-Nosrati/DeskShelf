@@ -10,7 +10,7 @@ sys.path.insert(0,str(ROOT))
 from app_meta import VERSION
 SOURCE_DIRS={'assets','locales','help','docs','scripts','licenses','.github'}
 SOURCE_FILES={'main.py','core.py','i18n.py','settings.py','visuals.py','info_dialogs.py','app_meta.py',
- 'app_info.json','test_deskshelf.py','test_release.py','requirements.txt','build_windows.bat',
+ 'app_info.json','test_deskshelf.py','test_release.py','test_ordering.py','test_visual_layout.py','operations.py','requirements.txt','build_windows.bat',
  'run_windows.bat','package_release.bat','README.md','README_FA.md','LICENSE','CONTRIBUTORS',
  'CONTRIBUTING.md','CHANGELOG.md','THIRD_PARTY_NOTICES.md','.gitignore'}
 

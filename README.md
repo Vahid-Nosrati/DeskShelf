@@ -22,6 +22,8 @@ unsaved documents. Save your work in the original applications before closing th
 
 - Four independent, scrollable columns: web pages, folders, files and applications.
 - Per-column collapsible categories, editable titles and notes, duplicate warnings.
+- Saved category/item ordering via scoped drag-and-drop or Up/Down buttons.
+- Same-type, single-column multiselection and reversible batch removal.
 - Open entries by double-click or Enter; use Windows executable files and shortcuts.
 - Drag-and-drop, cross-column search, complete-path copying and undo for removals.
 - Automatic local saves, JSON backup/export and restore; no cloud account required.
@@ -33,8 +35,8 @@ unsaved documents. Save your work in the original applications before closing th
 
 ## Quick links
 
-- [Download the ready-to-run Windows version](https://github.com/Vahid-Nosrati/DeskShelf/releases/download/v0.3.0/DeskShelf-v0.3.0-windows-x64-portable.zip)
-- [Download the source package](https://github.com/Vahid-Nosrati/DeskShelf/releases/download/v0.3.0/DeskShelf-v0.3.0-source.zip)
+- [Download the ready-to-run Windows version](https://github.com/Vahid-Nosrati/DeskShelf/releases/download/v0.4.0/DeskShelf-v0.4.0-windows-x64-portable.zip)
+- [Download the source package](https://github.com/Vahid-Nosrati/DeskShelf/releases/download/v0.4.0/DeskShelf-v0.4.0-source.zip)
 - [View all releases](https://github.com/Vahid-Nosrati/DeskShelf/releases)
 - [Report a bug or suggest an improvement](https://github.com/Vahid-Nosrati/DeskShelf/issues)
 
@@ -44,8 +46,8 @@ Use the repository's **Releases** page. There are two different downloads:
 
 | Download                                    | Best for                | What to do                                                        |
 | ------------------------------------------- | ----------------------- | ----------------------------------------------------------------- |
-| `DeskShelf-v0.3.0-windows-x64-portable.zip` | Run immediately         | Extract **all** contents, open `DeskShelf`, run `DeskShelf.exe`.  |
-| `DeskShelf-v0.3.0-source.zip`               | Build or modify the app | Extract, install build prerequisites and run `build_windows.bat`. |
+| `DeskShelf-v0.4.0-windows-x64-portable.zip` | Run immediately         | Extract **all** contents, open `DeskShelf`, run `DeskShelf.exe`.  |
+| `DeskShelf-v0.4.0-source.zip`               | Build or modify the app | Extract, install build prerequisites and run `build_windows.bat`. |
 
 The source archive is included with this project. The Windows portable archive is
 created on Windows and must be attached by the maintainer to the same release.
@@ -95,8 +97,8 @@ web title is blank, DeskShelf tries to fetch it in the background; the URL is sa
 even when fetching fails. This operation contacts the selected website.
 
 Click category headings to expand or collapse. Select entries before editing or
-removing them. Removing an entry never deletes the target file; removing a category
-moves its entries to General. User titles and notes stay as entered when you change
+removing them. Removing an entry never deletes the target file. Category removal
+asks whether to move every contained entry to General or remove those DeskShelf entries too. User titles and notes stay as entered when you change
 interface language.
 
 | Shortcut | Action                                                   |
@@ -105,11 +107,41 @@ interface language.
 | F2       | Edit entry / rename category                             |
 | Delete   | Remove entry or category after confirmation              |
 | Ctrl+F   | Focus search                                             |
-| Ctrl+Z   | Undo a recent removal during the current run             |
+| Ctrl+Z   | Undo a whole removal batch during the current run             |
 | F1       | Open the offline guide                                   |
 
 The **Help** button contains the comprehensive guide and **About** tab in the selected
 language. Windows-native file pickers may follow the Windows display language.
+
+## Reordering and batch removal
+
+Select one row and use the Up/Down buttons or drag it to a sibling. Categories can
+move only within their own column; entries can move only within their own category.
+A line marks the insertion point. General can move but cannot be renamed or removed.
+Ordering is saved. Clear the search first; reordering is disabled during search and
+while several rows are selected.
+
+Use **Ctrl+click** for separate rows and **Shift+click** for a range. Selection is
+restricted to one column and one type (categories OR entries). Selecting in another
+column clears the previous selection; selecting the other type starts a new selection.
+Entries from different categories of the same column can be selected together.
+General is excluded from category removal batches. Editing and opening require a
+single selection. Right-clicking a selected row preserves the current batch.
+
+Delete asks for confirmation and displays the counts. For categories choose either:
+
+- **Keep entries:** append them to General in their visible category/item order (default).
+- **Remove entries too:** remove the categories and all entries inside them from DeskShelf.
+
+The same choice applies to every selected category, including entries hidden by a
+search. Original files/folders/apps are never deleted. Cancel leaves data unchanged.
+**Undo / Ctrl+Z restores a whole removal batch with its previous order in one step.**
+Up to 20 batches are retained during the current run; reorder and ordinary edits are
+not deletion-undo actions.
+
+Column controls stay beside the title when space permits and wrap below only when
+needed. Up/Down controls have explicit arrowheads. The add/drop hint appears only
+when the column contains no entries and no categories beyond General.
 
 ## Languages
 
@@ -128,7 +160,7 @@ Translations are open for community review and improvements; see [Contributing](
 - Close the app before moving its folder. Keep the whole folder and its data.
 - Before updating, export a backup and copy `data`. Extract the new release into a
   different folder, run it and restore the backup. Confirm your entries before
-  deleting the old copy. Backups from v0.1 and v0.2 are accepted.
+  deleting the old copy. Backups from v0.1, v0.2 and v0.3 are accepted.
 - Do not attach personal `data` or exported backups to public issues or releases.
 
 ## Troubleshooting

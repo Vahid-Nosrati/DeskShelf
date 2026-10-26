@@ -1,6 +1,6 @@
 """Code-native vector icons and a rounded, accessible tree-card delegate."""
 from PySide6.QtCore import Qt, QRectF, QSize, QPointF
-from PySide6.QtGui import QColor, QPainter, QPen, QIcon, QPixmap, QFont, QLinearGradient, QTextOption
+from PySide6.QtGui import QColor, QPainter, QPen, QIcon, QPixmap, QFont, QLinearGradient, QTextOption, QPolygonF
 from PySide6.QtWidgets import QStyledItemDelegate, QStyle
 
 PASTELS=['#D9E8FC','#DDF2E7','#FBEACF','#EBE0FA','#F7DDE6','#D7EFF2','#E5E7EB','#FFFFFF']
@@ -32,7 +32,16 @@ def icon(name,color='#344660',size=24):
     pix=QPixmap(size,size);pix.fill(Qt.transparent);p=QPainter(pix);p.setRenderHint(QPainter.Antialiasing);p.scale(size/24,size/24)
     p.setPen(QPen(QColor(color),1.8,Qt.SolidLine,Qt.RoundCap,Qt.RoundJoin));p.setBrush(Qt.NoBrush)
     def line(x,y,X,Y):p.drawLine(QPointF(x,y),QPointF(X,Y))
-    if name in ('help','about'):
+    if name in ('up','down'):
+        # Short shaft and a filled triangular head.
+        if name=='up':
+            line(12,11,12,19)
+            points=[QPointF(12,4),QPointF(6,11),QPointF(18,11)]
+        else:
+            line(12,5,12,13)
+            points=[QPointF(12,20),QPointF(6,13),QPointF(18,13)]
+        p.setPen(Qt.NoPen);p.setBrush(QColor(color));p.drawPolygon(QPolygonF(points))
+    elif name in ('help','about'):
         p.drawEllipse(QRectF(3,3,18,18))
         if name=='help':
             p.drawArc(QRectF(8,6,8,7),-20*16,220*16);line(12,13,12,15);p.drawPoint(QPointF(12,18))
