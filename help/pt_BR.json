@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "title": "Objetivo e primeiros passos",
+    "body": "DeskShelf organiza manualmente páginas da web, pastas, arquivos e atalhos das tarefas em andamento. Adicione recursos, agrupe-os e anote onde continuar. Depois feche as janelas e desligue o Windows; na próxima vez, abra os recursos por aqui. O programa não restaura sessões nem documentos não salvos: salve o trabalho nos aplicativos originais primeiro."
+  },
+  {
+    "id": "2",
+    "title": "Adicionar e editar",
+    "body": "Clique em + na coluna correta. Escolha categoria, título, endereço completo e uma nota opcional, depois confirme. Use Geral quando não precisar de outra categoria. Selecione uma entrada e pressione F2 ou o lápis para editar. Endereços repetidos na mesma coluna geram aviso. Mudar o título não renomeia o arquivo original."
+  },
+  {
+    "id": "3",
+    "title": "Páginas da web",
+    "body": "Informe um endereço completo http:// ou https://. Com o título vazio, DeskShelf tenta buscá-lo em segundo plano, enviando uma solicitação ao site. Conexões lentas ou páginas que exigem login podem impedir isso; o link continua salvo. Clique duplo ou Enter abre o navegador padrão. As abas não são coletadas automaticamente."
+  },
+  {
+    "id": "4",
+    "title": "Pastas, arquivos e aplicativos",
+    "body": "Procurar seleciona pastas, arquivos, executáveis ou atalhos .lnk. O seletor do Windows aceita caminhos na barra de endereços; Ctrl+L geralmente a ativa. O caminho completo, incluindo o último nome, é mantido. Copie título e caminho separadamente. Pastas abrem no Explorer, arquivos no aplicativo padrão e programas ou atalhos são executados. Se mover o destino, atualize o caminho."
+  },
+  {
+    "id": "5",
+    "title": "Categorias e navegação",
+    "body": "Cada coluna tem categorias próprias. O botão de pasta com + cria uma. Clique ou pressione Enter numa categoria para expandir ou recolher; F2 muda seu nome. Geral não pode ser renomeada nem removida. As colunas rolam independentemente; arraste os divisores para ajustar larguras. Passe o mouse para ver título, caminho e nota completos."
+  },
+  {
+    "id": "6",
+    "title": "Remover e desfazer",
+    "body": "Selecione uma entrada, pressione Delete ou Remover e confirme. O arquivo original nunca é excluído. Remover uma categoria move seus itens para Geral. Desfazer ou Ctrl+Z recupera até 20 remoções durante a execução atual; o histórico termina ao fechar. Não desfaz edições comuns nem restaurações de backup."
+  },
+  {
+    "id": "7",
+    "title": "Pesquisa e arrastar",
+    "body": "Ctrl+F ativa a pesquisa por títulos, endereços, categorias e notas nas quatro colunas. Limpe o campo para mostrar tudo. Solte links, arquivos, pastas ou atalhos na coluna correta e confirme o diálogo. Vários recursos abrem diálogos individuais. Os originais não são movidos nem copiados."
+  },
+  {
+    "id": "8",
+    "title": "Idioma e disposição",
+    "body": "Em Configurações → Geral escolha um dos 12 idiomas e organize as colunas com Acima e Abaixo; confirme. Inglês é o padrão na primeira execução. Persa e árabe usam a interface da direita para a esquerda; os demais, da esquerda para a direita. Caminhos sempre ficam da esquerda para a direita. Suas escolhas são salvas; títulos, categorias e notas pessoais não são traduzidos."
+  },
+  {
+    "id": "9",
+    "title": "Aparência",
+    "body": "Em Configurações → Aparência escolha Plano ou Elevado e densidade Compacta ou Confortável. Ajuste fundo, cada coluna e bordas de itens e categorias. Opacidade vai de 0% invisível a 100% sólida e não apaga o texto. Há paletas Pastel e Padrão, cor personalizada pelo código e temas prontos. A prévia é imediata; Cancelar reverte e Confirmar salva. Restaurar padrões altera apenas a aparência. O estilo não muda a direção do texto."
+  },
+  {
+    "id": "10",
+    "title": "Salvamento e backups",
+    "body": "Mudanças são salvas automaticamente em data/data.json ao lado do EXE; use uma pasta gravável. data/previous.json guarda apenas o estado anterior ao último salvamento. Exportar backup grava dados e configurações em JSON; Restaurar substitui os atuais após confirmação. Backups contêm caminhos e notas pessoais: compartilhe-os conscientemente. Não é necessária conta na nuvem."
+  },
+  {
+    "id": "11",
+    "title": "Mover, atualizar e tamanho",
+    "body": "Feche antes de mover toda a pasta portátil, incluindo _internal e data. Antes de atualizar, exporte um backup e copie data; extraia a versão nova em outra pasta e restaure o backup. Depois de compilar, apenas dist/DeskShelf é necessário; .venv e build são para desenvolvimento. Guarde o ZIP do código. A versão anterior ocupava cerca de 120 MB extraída; o tamanho varia."
+  },
+  {
+    "id": "12",
+    "title": "Problemas, atalhos e Sobre",
+    "body": "Se um recurso não abrir, confira destino, aplicativo padrão e acesso a discos de rede ou removíveis. Tempos esgotados durante a compilação se referem a downloads; consulte os índices alternativos ou um wheelhouse completo offline. Em falhas de salvamento, confira permissões. Só há uma instância por pasta de dados. Desafixe ícones antigos e fixe o novo EXE. Enter abre, F2 edita, Delete remove, Ctrl+F pesquisa, Ctrl+Z desfaz remoções e F1 abre ajuda. Sobre mostra versão, Vahid Nosrati, links opcionais e licenças. O guia funciona offline."
+  }
+]

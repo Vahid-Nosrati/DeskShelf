@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "title": "Zweck und Einstieg",
+    "body": "DeskShelf sammelt manuell Webseiten, Ordner, Dateien und Programmverknüpfungen Ihrer laufenden Aufgaben. Fügen Sie Ressourcen hinzu, ordnen Sie diese Kategorien zu und notieren Sie, wo es weitergeht. Danach können Sie Fenster schließen und Windows herunterfahren. Beim nächsten Start öffnen Sie Ihre Ressourcen hier. Sitzungen und ungespeicherte Dokumente werden nicht wiederhergestellt; speichern Sie zuerst in den jeweiligen Programmen."
+  },
+  {
+    "id": "2",
+    "title": "Hinzufügen und bearbeiten",
+    "body": "Klicken Sie in der passenden Spalte auf +. Wählen Sie Kategorie, Titel, vollständige Adresse und eine optionale Notiz, dann bestätigen Sie. Ohne spezielle Kategorie verwenden Sie Allgemein. F2 oder der Stift bearbeitet einen ausgewählten Eintrag. Doppelte Adressen derselben Spalte werden gemeldet. Ein geänderter Anzeigetitel benennt die Originaldatei nicht um."
+  },
+  {
+    "id": "3",
+    "title": "Webseiten",
+    "body": "Geben Sie eine vollständige http://- oder https://-Adresse ein. Bei leerem Titel versucht DeskShelf, diesen im Hintergrund vom Zielserver abzurufen. Langsame Verbindungen oder eine erforderliche Anmeldung können das verhindern; der Link bleibt gespeichert. Doppelklick oder Eingabe öffnet den Standardbrowser. Browser-Tabs werden nicht automatisch erfasst."
+  },
+  {
+    "id": "4",
+    "title": "Ordner, Dateien und Programme",
+    "body": "Durchsuchen wählt Ordner, Dateien, Programme oder .lnk-Verknüpfungen. Im Windows-Dialog können Sie Pfade in die Adresszeile eingeben; meist fokussiert Strg+L diese. Der gesamte Pfad einschließlich des letzten Namens bleibt erhalten. Titel und Pfad lassen sich getrennt kopieren. Ordner öffnen im Explorer, Dateien in ihrem Standardprogramm, Programme und Verknüpfungen werden gestartet. Nach Verschieben eines Ziels müssen Sie den Pfad gegebenenfalls bearbeiten."
+  },
+  {
+    "id": "5",
+    "title": "Kategorien und Navigation",
+    "body": "Jede Spalte hat eigene Kategorien. Der Ordner mit + erstellt eine Kategorie. Ein Klick oder Eingabe klappt sie auf oder zu; F2 benennt sie um. Allgemein kann weder umbenannt noch entfernt werden. Spalten scrollen unabhängig und lassen sich über die Trennlinien verbreitern. Beim Überfahren erscheinen vollständiger Titel, Pfad und Notiz."
+  },
+  {
+    "id": "6",
+    "title": "Entfernen und rückgängig machen",
+    "body": "Wählen Sie einen Eintrag, drücken Sie Entf oder Entfernen und bestätigen Sie. Die Originaldatei bleibt erhalten. Entfernen einer Kategorie verschiebt ihre Einträge nach Allgemein. Rückgängig oder Strg+Z stellt bis zu 20 Löschvorgänge der aktuellen Sitzung wieder her. Nach dem Schließen ist dieser Verlauf weg. Normale Bearbeitungen und Sicherungswiederherstellungen werden nicht rückgängig gemacht."
+  },
+  {
+    "id": "7",
+    "title": "Suche und Ziehen",
+    "body": "Strg+F aktiviert die Suche in Titeln, Adressen, Kategorien und Notizen aller Spalten. Leeren Sie das Feld, um alles zu sehen. Ziehen Sie Links, Dateien, Ordner oder Verknüpfungen in die passende Spalte und bestätigen Sie den Dialog. Mehrere Ressourcen öffnen jeweils einen Dialog. Originale werden nicht verschoben oder kopiert."
+  },
+  {
+    "id": "8",
+    "title": "Sprache und Anordnung",
+    "body": "Unter Einstellungen → Allgemein wählen Sie eine von 12 Sprachen und ändern mit Nach oben und Nach unten die Spaltenfolge. Bestätigen Sie anschließend. Beim ersten Start gilt Englisch. Persisch und Arabisch laufen rechts nach links, andere Sprachen links nach rechts. Pfade bleiben links nach rechts. Ihre Auswahl wird gespeichert; eigene Titel, Kategorien und Notizen werden nicht übersetzt."
+  },
+  {
+    "id": "9",
+    "title": "Darstellung",
+    "body": "Einstellungen → Darstellung bietet Flach oder Erhaben sowie Kompakt oder Komfortabel. Hintergrund, jede Spalte, Eintrags- und Kategorierahmen sind separat einstellbar. Deckkraft reicht von 0 % unsichtbar bis 100 % deckend; Text bleibt lesbar. Pastell- und Standardpaletten, eigene Farben über den Farbcode und Vorlagen stehen bereit. Änderungen erscheinen sofort; Abbrechen setzt zurück, OK speichert. Standard wiederherstellen betrifft das Design. Der Stil ändert niemals die Textrichtung."
+  },
+  {
+    "id": "10",
+    "title": "Speichern und Sicherungen",
+    "body": "Änderungen landen automatisch in data/data.json neben der EXE; der Ordner muss beschreibbar sein. data/previous.json enthält nur den Zustand vor dem letzten Speichern. Sicherung exportieren schreibt Daten und Einstellungen in eine JSON-Datei; Wiederherstellen ersetzt sie nach Bestätigung. Sicherungen enthalten persönliche Pfade und Notizen; teilen Sie diese bewusst. Ein Cloudkonto ist nicht erforderlich."
+  },
+  {
+    "id": "11",
+    "title": "Umziehen, aktualisieren und Größe",
+    "body": "Schließen Sie DeskShelf vor dem Verschieben. Behalten Sie den ganzen portablen Ordner inklusive _internal und data. Vor Updates exportieren Sie eine Sicherung und kopieren data; entpacken Sie die neue Version separat und stellen Sie die Sicherung wieder her. Nach dem Bauen genügt dist/DeskShelf zum Ausführen; .venv und build dienen der Entwicklung. Bewahren Sie das Quell-ZIP auf. Der frühere Windows-Build belegte entpackt etwa 120 MB; das kann sich ändern."
+  },
+  {
+    "id": "12",
+    "title": "Probleme, Tastenkürzel und Über",
+    "body": "Prüfen Sie bei Öffnungsproblemen Ziel, Standardprogramm und Erreichbarkeit von Netzwerk- oder Wechseldatenträgern. Download-Zeitüberschreitungen beim Bauen betreffen Pakete; nutzen Sie die dokumentierten Paketquellen oder ein vollständiges Offline-wheelhouse. Prüfen Sie Schreibrechte bei Speicherfehlern. Pro Datenordner läuft nur eine Instanz. Bei alten angehefteten Symbolen lösen Sie die Verknüpfung und heften die neue EXE an. Eingabe öffnet, F2 bearbeitet, Entf entfernt, Strg+F sucht, Strg+Z stellt Löschungen wieder her, F1 öffnet die Hilfe. Über zeigt Version, Vahid Nosrati, optionale Links und Lizenzen. Dieses Handbuch ist offline verfügbar."
+  }
+]

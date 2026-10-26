@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "title": "Purpose and quick start",
+    "body": "DeskShelf is a manual work shelf for web pages, folders, files and application shortcuts. Add the resources for your current tasks, group them into categories and leave notes about where to continue. You can then close your windows and shut down Windows. Next time, open DeskShelf and launch the resources you need. It does not save application sessions or unsaved documents; save your work in the original applications first."
+  },
+  {
+    "id": "2",
+    "title": "Add and edit",
+    "body": "Press + in the appropriate column. Choose a category, enter a title and full address, add an optional note and confirm. Without a specific category, use General. Select an entry and press F2 or the pencil button to edit it. Duplicate addresses within a column are reported instead of added again. Titles are display names; editing them does not rename the original file."
+  },
+  {
+    "id": "3",
+    "title": "Web pages",
+    "body": "Enter a complete http:// or https:// address. If the title is empty, DeskShelf tries to fetch the page title in the background. This sends a request to that website. A slow connection, login requirement or unsupported page may prevent fetching; the link remains saved and its title can be edited manually. Double-click or Enter opens the default browser. Browser tabs are not collected automatically."
+  },
+  {
+    "id": "4",
+    "title": "Folders, files and applications",
+    "body": "Use Browse to select a folder, file, executable or Windows shortcut (.lnk). The Windows picker supports entering a path in its address bar; Ctrl+L usually focuses it. Full paths, including the final folder or file name, are retained. Copy buttons copy the title and complete path separately. Folders open in Explorer, files in their default application, and application entries launch the selected program or shortcut. Moving a target may require editing its saved path."
+  },
+  {
+    "id": "5",
+    "title": "Categories and navigation",
+    "body": "Each column has independent categories. Use the folder-plus button to create one. Click a category or press Enter when it is selected to expand or collapse it. F2 renames a selected category. General cannot be renamed or removed. Each column scrolls independently; drag the dividers to change widths. Hover over an entry to see its full title, address and note."
+  },
+  {
+    "id": "6",
+    "title": "Remove and undo",
+    "body": "Select an entry and press Delete or the remove button, then confirm. Only the DeskShelf entry is removed, never the original file or folder. Removing a category moves its entries to General. Undo or Ctrl+Z restores up to 20 recent removals during the current run; this history is not retained after closing. Undo does not reverse ordinary edits or backup restoration."
+  },
+  {
+    "id": "7",
+    "title": "Search and drag-and-drop",
+    "body": "Ctrl+F focuses the main search. It searches titles, addresses, category names and notes across all four columns. Clear the search to show everything. Drop a link, file, folder or shortcut onto the matching column; review and confirm the add dialog. Dropping several resources opens a dialog for each. Dropping an item does not move or copy the original resource."
+  },
+  {
+    "id": "8",
+    "title": "Language and layout",
+    "body": "Open Settings, then General. English is the first-run default. Select one of the 12 languages and use Up and Down to set column order; confirm to apply. Persian and Arabic interfaces run right to left; other interfaces run left to right. Paths stay left to right. Your language and order are saved. User titles, category names and notes are not translated."
+  },
+  {
+    "id": "9",
+    "title": "Appearance",
+    "body": "In Settings → Appearance choose Flat or Raised, and Compact or Comfortable density. Change the window background, each column color, item borders and category borders separately. Opacity ranges from 0% invisible to 100% solid; it does not fade text. Pastel and Standard palettes offer swatches; the color code opens a custom picker. Presets replace the appearance settings. Changes preview immediately; Cancel restores the previous appearance, OK saves it. Reset restores appearance defaults. Style changes never change text direction."
+  },
+  {
+    "id": "10",
+    "title": "Saving and backups",
+    "body": "Changes save automatically in data/data.json beside the executable. Keep the app in a writable folder. data/previous.json holds only the version before the most recent save, not a long-term backup. Export Backup saves data and settings as JSON to a chosen location. Restore Backup replaces current data and settings after confirmation. Backups contain your titles, paths and notes; share them only intentionally. No cloud account is required."
+  },
+  {
+    "id": "11",
+    "title": "Move, update and disk usage",
+    "body": "Close DeskShelf before moving it. Keep the entire portable folder, including _internal and data; moving only the EXE breaks dependencies. Before updating, export a backup and keep a copy of data. Extract the new release into a new folder, then restore your backup there. After building from source, only dist/DeskShelf is required to run the app; .venv and build are development files. Keep the source ZIP for future changes. The previous Windows build was about 120 MB extracted; sizes vary by release."
+  },
+  {
+    "id": "12",
+    "title": "Troubleshooting, shortcuts and About",
+    "body": "If a resource fails to open, check that its target still exists and Windows has a default application. Network or removable-drive paths must be accessible. Build download timeouts concern package access, not saved entries; use the documented index options or a complete offline wheelhouse. If saving fails, check folder write permissions. Only one instance per data folder runs at once. For stale pinned icons, unpin the old shortcut and pin the new EXE. Shortcuts: Enter open/toggle, F2 edit, Delete remove, Ctrl+F search, Ctrl+Z undo removal, F1 help. The About tab shows the version, Vahid Nosrati, optional public links and dependency notices. This guide is available offline."
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "title": "Objectif et démarrage",
+    "body": "DeskShelf rassemble manuellement les pages web, dossiers, fichiers et raccourcis de vos tâches. Ajoutez les ressources, classez-les et notez où reprendre. Fermez ensuite vos fenêtres et éteignez Windows ; à votre retour, retrouvez les ressources ici. Les sessions et documents non enregistrés ne sont pas restaurés : enregistrez d’abord votre travail dans chaque application."
+  },
+  {
+    "id": "2",
+    "title": "Ajouter et modifier",
+    "body": "Cliquez sur + dans la bonne colonne. Choisissez catégorie, titre, adresse complète et note facultative, puis validez. Utilisez Général sans catégorie particulière. F2 ou le crayon modifie l’entrée sélectionnée. Une adresse en double dans la même colonne est signalée. Modifier le titre affiché ne renomme pas le fichier original."
+  },
+  {
+    "id": "3",
+    "title": "Pages web",
+    "body": "Saisissez une URL complète http:// ou https://. Sans titre, le programme tente de le récupérer en arrière-plan en contactant le site. Une connexion lente ou une page nécessitant une connexion peut empêcher cette récupération ; le lien reste enregistré. Double-clic ou Entrée ouvre le navigateur par défaut. Les onglets ne sont pas collectés automatiquement."
+  },
+  {
+    "id": "4",
+    "title": "Dossiers, fichiers et applications",
+    "body": "Parcourir sélectionne un dossier, fichier, exécutable ou raccourci .lnk. Le sélecteur Windows accepte un chemin dans sa barre d’adresse ; Ctrl+L l’active généralement. Le chemin complet, dernier nom compris, est conservé. Copiez titre et chemin séparément. Les dossiers ouvrent Explorer, les fichiers leur application par défaut et les programmes ou raccourcis se lancent. Modifiez le chemin si la cible a été déplacée."
+  },
+  {
+    "id": "5",
+    "title": "Catégories et navigation",
+    "body": "Les catégories sont indépendantes par colonne. Le dossier avec + en crée une. Cliquez sur une catégorie ou appuyez sur Entrée pour la développer ou réduire ; F2 la renomme. Général ne peut être renommée ni retirée. Chaque colonne défile indépendamment ; les séparateurs règlent les largeurs. Survoler une entrée affiche son titre complet, son chemin et sa note."
+  },
+  {
+    "id": "6",
+    "title": "Retirer et annuler",
+    "body": "Sélectionnez une entrée, appuyez sur Suppr ou Retirer et confirmez. Le fichier original reste intact. Retirer une catégorie déplace ses éléments vers Général. Annuler ou Ctrl+Z rétablit jusqu’à 20 suppressions pendant l’exécution actuelle ; l’historique disparaît à la fermeture. Les modifications ordinaires et restaurations ne sont pas annulées."
+  },
+  {
+    "id": "7",
+    "title": "Recherche et glisser-déposer",
+    "body": "Ctrl+F active la recherche des titres, adresses, catégories et notes dans les quatre colonnes. Effacez la recherche pour tout afficher. Déposez lien, fichier, dossier ou raccourci sur la bonne colonne et confirmez le dialogue. Plusieurs ressources ouvrent des dialogues successifs. Aucun fichier original n’est déplacé ni copié."
+  },
+  {
+    "id": "8",
+    "title": "Langue et disposition",
+    "body": "Paramètres → Général propose 12 langues et l’ordre des colonnes avec Monter et Descendre ; validez pour appliquer. L’anglais est utilisé au premier démarrage. Le persan et l’arabe vont de droite à gauche, les autres langues de gauche à droite ; les chemins restent de gauche à droite. Les choix sont enregistrés, mais vos propres titres, catégories et notes ne sont pas traduits."
+  },
+  {
+    "id": "9",
+    "title": "Apparence",
+    "body": "Dans Paramètres → Apparence, choisissez Plat ou En relief et une densité Compacte ou Confortable. Réglez fond, couleur de chaque colonne et bordures des éléments et catégories. Opacité : 0 % invisible, 100 % opaque ; le texte ne s’estompe pas. Palettes Pastel et Standard, sélecteur personnalisé via le code couleur et thèmes prédéfinis sont disponibles. L’aperçu est immédiat ; Annuler rétablit et Valider enregistre. Le rétablissement des valeurs par défaut concerne l’apparence. Le style ne change pas le sens du texte."
+  },
+  {
+    "id": "10",
+    "title": "Enregistrement et sauvegardes",
+    "body": "Les données sont enregistrées dans data/data.json près de l’EXE ; le dossier doit être accessible en écriture. data/previous.json ne conserve que l’état avant le dernier enregistrement. Exporter sauvegarde données et paramètres en JSON ; Restaurer remplace les données après confirmation. Ces fichiers contiennent vos chemins et notes : partagez-les volontairement. Aucun compte cloud n’est requis."
+  },
+  {
+    "id": "11",
+    "title": "Déplacement, mise à jour et taille",
+    "body": "Fermez avant de déplacer tout le dossier portable, y compris _internal et data. Avant une mise à jour, exportez une sauvegarde et copiez data ; extrayez la nouvelle version ailleurs et restaurez la sauvegarde. Après compilation, seul dist/DeskShelf est nécessaire ; .venv et build servent au développement. Gardez le ZIP source. L’ancienne version occupait environ 120 Mo extraite ; la taille varie."
+  },
+  {
+    "id": "12",
+    "title": "Dépannage, raccourcis et À propos",
+    "body": "Si une ressource ne s’ouvre pas, vérifiez cible, application par défaut et accès aux disques réseau ou amovibles. Les délais de téléchargement de compilation concernent les paquets ; consultez les index alternatifs ou un wheelhouse hors ligne complet. Vérifiez les droits d’écriture en cas d’échec de sauvegarde. Une seule instance par dossier de données est autorisée. Détachez les anciennes icônes épinglées et épinglez le nouvel EXE. Entrée ouvre, F2 modifie, Suppr retire, Ctrl+F recherche, Ctrl+Z annule une suppression et F1 ouvre l’aide. À propos affiche version, Vahid Nosrati, liens facultatifs et licences. Le guide fonctionne hors ligne."
+  }
+]

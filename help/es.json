@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "title": "Objetivo e inicio rápido",
+    "body": "DeskShelf organiza manualmente páginas web, carpetas, archivos y accesos directos de tus tareas. Añade recursos, agrúpalos y anota dónde continuar. Después puedes cerrar las ventanas y apagar Windows; al volver, abre los recursos desde DeskShelf. No guarda sesiones ni documentos sin guardar: guarda primero el trabajo en la aplicación original."
+  },
+  {
+    "id": "2",
+    "title": "Añadir y editar",
+    "body": "Pulsa + en la columna correspondiente. Elige categoría, título, dirección completa y una nota opcional; confirma. Usa General si no necesitas otra categoría. Selecciona una entrada y pulsa F2 o el lápiz para editarla. Se avisa de direcciones duplicadas en la misma columna. Cambiar el título no renombra el archivo original."
+  },
+  {
+    "id": "3",
+    "title": "Páginas web",
+    "body": "Introduce una URL completa http:// o https://. Un título vacío activa un intento de obtenerlo en segundo plano, enviando una petición al sitio. Una conexión lenta o una página con inicio de sesión puede impedirlo; el enlace se guarda igualmente. Doble clic o Enter abre el navegador predeterminado. Las pestañas no se recopilan automáticamente."
+  },
+  {
+    "id": "4",
+    "title": "Carpetas, archivos y aplicaciones",
+    "body": "Examinar permite elegir carpetas, archivos, ejecutables y accesos .lnk. El selector de Windows admite rutas en su barra de direcciones; Ctrl+L suele enfocarla. Se conserva la ruta completa, incluido el último nombre. Los botones copian título y ruta por separado. Las carpetas abren Explorer; los archivos, su aplicación predeterminada; los programas y accesos se ejecutan. Edita la ruta si mueves el destino."
+  },
+  {
+    "id": "5",
+    "title": "Categorías y navegación",
+    "body": "Cada columna tiene categorías independientes. El botón de carpeta con + crea una. Haz clic o pulsa Enter sobre una categoría para expandirla o contraerla; F2 cambia su nombre. General no se puede renombrar ni eliminar. Cada columna se desplaza por separado; arrastra divisores para ajustar anchuras. Al pasar el ratón se muestran título, ruta y nota completos."
+  },
+  {
+    "id": "6",
+    "title": "Eliminar y deshacer",
+    "body": "Selecciona una entrada, pulsa Delete o eliminar y confirma. Nunca se borra el archivo original. Eliminar una categoría mueve sus elementos a General. Deshacer o Ctrl+Z recupera hasta 20 eliminaciones de la ejecución actual; el historial desaparece al cerrar. No deshace ediciones normales ni restauraciones de copias."
+  },
+  {
+    "id": "7",
+    "title": "Buscar y arrastrar",
+    "body": "Ctrl+F enfoca la búsqueda de títulos, direcciones, categorías y notas en las cuatro columnas. Bórrala para mostrar todo. Arrastra enlaces, archivos, carpetas o accesos a su columna y confirma el diálogo. Varios recursos abren un diálogo para cada uno. No se mueven ni copian los recursos originales."
+  },
+  {
+    "id": "8",
+    "title": "Idioma y orden",
+    "body": "En Configuración → General elige uno de los 12 idiomas y ordena columnas con Arriba y Abajo; confirma. El idioma inicial es inglés. Persa y árabe usan interfaz de derecha a izquierda; los demás, de izquierda a derecha. Las rutas siempre van de izquierda a derecha. Se guardan las opciones; tus títulos, categorías y notas no se traducen."
+  },
+  {
+    "id": "9",
+    "title": "Apariencia",
+    "body": "En Configuración → Apariencia elige Plano o Elevado y densidad Compacta o Cómoda. Ajusta fondo, color de cada columna y bordes de elementos y categorías. Opacidad: 0 % invisible, 100 % sólido; el texto no se desvanece. Hay paletas Pastel y Estándar, color personalizado al pulsar su código y temas predefinidos. La vista previa es inmediata; Cancelar revierte y Aceptar guarda. Restablecer afecta a la apariencia. El estilo no cambia la dirección del texto."
+  },
+  {
+    "id": "10",
+    "title": "Guardado y copias",
+    "body": "Los cambios se guardan en data/data.json junto al EXE; usa una carpeta con permiso de escritura. data/previous.json solo conserva el estado anterior al último guardado. Exportar guarda datos y configuración en un JSON elegido. Restaurar reemplaza los actuales tras confirmar. Las copias contienen rutas y notas personales: compártelas conscientemente. No se necesita cuenta en la nube."
+  },
+  {
+    "id": "11",
+    "title": "Trasladar, actualizar y tamaño",
+    "body": "Cierra el programa antes de moverlo. Conserva toda la carpeta portátil, incluidos _internal y data. Antes de actualizar, exporta y copia data; extrae la nueva versión en otra carpeta y restaura la copia. Después de compilar solo necesitas dist/DeskShelf; .venv y build son herramientas de desarrollo. Conserva el ZIP del código. La versión anterior ocupaba unos 120 MB extraída; puede variar."
+  },
+  {
+    "id": "12",
+    "title": "Problemas, atajos y Acerca de",
+    "body": "Si no abre un recurso, comprueba destino, aplicación predeterminada y acceso a unidades de red o extraíbles. Los tiempos de espera al compilar afectan a descargas; consulta los índices alternativos o un wheelhouse completo sin conexión. Ante fallos de guardado, revisa permisos. Solo se admite una instancia por carpeta de datos. Para iconos anclados antiguos, desancla y ancla el nuevo EXE. Enter abre, F2 edita, Delete elimina, Ctrl+F busca, Ctrl+Z recupera eliminaciones y F1 abre ayuda. Acerca de muestra versión, Vahid Nosrati, enlaces opcionales y licencias. La guía funciona sin conexión."
+  }
+]

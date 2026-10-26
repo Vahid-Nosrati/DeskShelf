@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "title": "Amaç ve hızlı başlangıç",
+    "body": "DeskShelf, devam eden işlerinizin web sayfalarını, klasörlerini, dosyalarını ve uygulama kısayollarını elle düzenleyen bir çalışma rafıdır. Kaynak ekleyin, kategorilere ayırın ve nereden devam edeceğinizi not edin. Ardından pencereleri kapatıp Windows'u kapatabilirsiniz; sonraki açılışta kaynakları buradan açın. Uygulama oturumları ve kaydedilmemiş belgeler geri yüklenmez; önce asıl uygulamada kaydedin."
+  },
+  {
+    "id": "2",
+    "title": "Ekleme ve düzenleme",
+    "body": "İlgili sütunda + düğmesine basın. Kategori, başlık, tam adres ve isteğe bağlı not girip onaylayın. Özel kategori gerekmiyorsa Genel'i kullanın. Seçili öğeyi F2 veya kalem ile düzenleyin. Aynı sütundaki yinelenen adresler bildirilir. Görünen başlığı değiştirmek asıl dosyanın adını değiştirmez."
+  },
+  {
+    "id": "3",
+    "title": "Web sayfaları",
+    "body": "Tam bir http:// veya https:// adresi girin. Başlık boşsa siteye istek gönderilerek arka planda alınmaya çalışılır. Yavaş bağlantı veya giriş gerektiren sayfalar bunu engelleyebilir; bağlantı yine kaydedilir ve başlık elle düzenlenebilir. Çift tıklama veya Enter varsayılan tarayıcıyı açar. Tarayıcı sekmeleri otomatik toplanmaz."
+  },
+  {
+    "id": "4",
+    "title": "Klasörler, dosyalar ve uygulamalar",
+    "body": "Gözat ile klasör, dosya, çalıştırılabilir program veya .lnk kısayolu seçin. Windows seçicisindeki adres çubuğuna yol girilebilir; Ctrl+L genellikle odağı oraya taşır. Son ad dahil tam yol korunur. Başlık ve yolu ayrı ayrı kopyalayın. Klasörler Explorer'da, dosyalar varsayılan uygulamada açılır; program veya kısayol çalıştırılır. Hedef taşınırsa kayıtlı yolu düzenleyin."
+  },
+  {
+    "id": "5",
+    "title": "Kategoriler ve gezinme",
+    "body": "Her sütunun bağımsız kategorileri vardır. + işaretli klasör düğmesi kategori oluşturur. Tıklama veya Enter açıp kapatır; F2 adını değiştirir. Genel yeniden adlandırılamaz veya kaldırılamaz. Sütunlar bağımsız kaydırılır; ayırıcıları sürükleyerek genişlik ayarlanır. Fareyi öğeye getirmek tam başlık, adres ve notu gösterir."
+  },
+  {
+    "id": "6",
+    "title": "Kaldırma ve geri alma",
+    "body": "Öğeyi seçip Delete veya kaldırma düğmesine basın ve onaylayın. Asıl dosya silinmez. Kategori kaldırılırsa öğeleri Genel'e gider. Geri al veya Ctrl+Z mevcut çalıştırmada son 20 kaldırmayı geri getirir; geçmiş kapatılınca kaybolur. Normal düzenleme ve yedek geri yükleme işlemleri geri alınmaz."
+  },
+  {
+    "id": "7",
+    "title": "Arama ve sürükleme",
+    "body": "Ctrl+F, dört sütunun başlık, adres, kategori ve notlarını arayan alanı odaklar. Tümünü görmek için aramayı temizleyin. Bağlantı, dosya, klasör veya kısayolu uygun sütuna bırakıp açılan pencereyi onaylayın. Birden çok kaynak için ayrı pencereler açılır. Asıl kaynak taşınmaz veya kopyalanmaz."
+  },
+  {
+    "id": "8",
+    "title": "Dil ve sütun sırası",
+    "body": "Ayarlar → Genel'de 12 dilden birini seçin, Yukarı ve Aşağı ile sütunları sıralayın ve onaylayın. İlk açılış dili İngilizcedir. Farsça ve Arapça sağdan sola, diğer diller soldan sağadır. Yollar daima soldan sağa kalır. Tercihler kaydedilir; kişisel başlık, kategori ve notlar çevrilmez."
+  },
+  {
+    "id": "9",
+    "title": "Görünüm",
+    "body": "Ayarlar → Görünüm'de Düz veya Kabartmalı ve Sıkışık veya Rahat yoğunluğunu seçin. Arka planı, her sütunu, öğe ve kategori kenarlıklarını ayrı ayarlayın. Opaklık %0 görünmez ile %100 tam arasındadır; metin solmaz. Pastel ve Standart paletler, renk kodundan özel seçim ve hazır temalar vardır. Anında önizleme yapılır; İptal eskisini getirir, Tamam kaydeder. Varsayılana dön yalnızca görünümü sıfırlar. Stil, metin yönünü değiştirmez."
+  },
+  {
+    "id": "10",
+    "title": "Kaydetme ve yedekler",
+    "body": "Değişiklikler EXE yanındaki data/data.json dosyasına otomatik kaydedilir; klasör yazılabilir olmalıdır. data/previous.json yalnızca son kayıttan önceki durumu tutar. Yedeği dışa aktar veri ve ayarları seçilen JSON'a yazar; geri yükleme onaydan sonra mevcut veriyi değiştirir. Yedekler kişisel yol ve notları içerir; bilerek paylaşın. Bulut hesabı gerekmez."
+  },
+  {
+    "id": "11",
+    "title": "Taşıma, güncelleme ve boyut",
+    "body": "Taşımadan önce kapatın. _internal ve data dahil taşınabilir klasörün tamamını saklayın; yalnız EXE yetmez. Güncellemeden önce yedek dışa aktarın ve data'yı kopyalayın; yeni sürümü yeni klasöre çıkarıp yedeği geri yükleyin. Derledikten sonra yalnız dist/DeskShelf gerekir; .venv ve build geliştirme içindir. Kaynak ZIP'ini saklayın. Önceki Windows çıktısı çıkarılmış hâlde yaklaşık 120 MB idi; boyut değişebilir."
+  },
+  {
+    "id": "12",
+    "title": "Sorunlar, kısayollar ve Hakkında",
+    "body": "Açılmayan kaynak için hedefi, varsayılan uygulamayı ve ağ ya da çıkarılabilir diskin erişimini kontrol edin. Derleme indirme zaman aşımı paket erişimiyle ilgilidir; belgelenen alternatif depoyu veya eksiksiz çevrimdışı wheelhouse'u kullanın. Kayıt hatasında yazma izinlerini kontrol edin. Her veri klasörü için tek örnek çalışır. Eski sabitlenmiş simgeyi kaldırıp yeni EXE'yi sabitleyin. Enter açar, F2 düzenler, Delete kaldırır, Ctrl+F arar, Ctrl+Z kaldırmayı geri alır, F1 yardım açar. Hakkında sürümü, Vahid Nosrati'yi, isteğe bağlı bağlantıları ve lisansları gösterir. Kılavuz çevrimdışıdır."
+  }
+]
